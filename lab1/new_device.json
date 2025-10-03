@@ -1,0 +1,26 @@
+{
+    "deviceID": 1,
+    "deviceName": "ARTHUR",
+    "measureType": [
+        "Temperature",
+        "Humidity"
+    ],
+    "availableServices": [
+        "MQTT",
+        "REST"
+    ],
+    "servicesDetails": [
+    {
+        "serviceType": "MQTT",
+        "topic": [
+            "Arthur/1/tyeste",
+            "Arthur/2/aaaa"
+        ]
+    },
+    {
+        "serviceType": "REST",
+        "serviceIP": "oioioi.org:8080"
+    }
+    ],
+    "lastUpdate": "2020-03-30"
+}

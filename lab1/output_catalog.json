@@ -1,9 +1,9 @@
 {
     "devicesList": [
         {
-            "deviceName": "DHT11",
+            "deviceName": "ARTHUR",
             "deviceID": 1,
-            "lastUpdate": "2020-03-30",
+            "lastUpdate": "2025-10-03 20:44",
             "measureTypes": [
                 "Temperature",
                 "Humidity"
@@ -12,13 +12,13 @@
                 {
                     "serviceType": "MQTT",
                     "topic": [
-                        "MySmartThingy/1/temp",
-                        "MySmartThingy/1/hum"
+                        "Arthur/1/tyeste",
+                        "Arthur/2/aaaa"
                     ]
                 },
                 {
                     "serviceType": "REST",
-                    "serviceIP": "dht11.org:8080"
+                    "serviceIP": "oioioi.org:8080"
                 }
             ],
             "availableServices": [

@@ -2,5 +2,5 @@ from catalog import Catalog
 
 catalog = Catalog()
 catalog.loadFromJson("catalog.json")
-catalog.printAll()
+catalog.insertFromJon("new_device.json")
 catalog.saveToJson("output_catalog.json")

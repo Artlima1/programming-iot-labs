@@ -8,6 +8,12 @@ class Device:
         self.setMeasureTypes(measureTypes)
         self.setServices(servicesDetails, availableServices)
 
+    def setName(self, name):  
+        self.deviceName = name
+
+    def setLastUpdate(self, lastUpdate):
+        self.lastUpdate = lastUpdate
+
     def setMeasureTypes(self, measureTypes):
         self.sensors = []
         for measureType in measureTypes:

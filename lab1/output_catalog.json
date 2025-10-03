@@ -1,0 +1,67 @@
+{
+    "devicesList": [
+        {
+            "deviceName": "DHT11",
+            "deviceID": 1,
+            "lastUpdate": "2020-03-30",
+            "measureTypes": [
+                "Temperature",
+                "Humidity"
+            ],
+            "servicesDetails": [
+                {
+                    "serviceType": "MQTT",
+                    "topic": [
+                        "MySmartThingy/1/temp",
+                        "MySmartThingy/1/hum"
+                    ]
+                },
+                {
+                    "serviceType": "REST",
+                    "serviceIP": "dht11.org:8080"
+                }
+            ],
+            "availableServices": [
+                "MQTT",
+                "REST"
+            ]
+        },
+        {
+            "deviceName": "VCNL4010",
+            "deviceID": 2,
+            "lastUpdate": "2020-03-30",
+            "measureTypes": [
+                "Proximity"
+            ],
+            "servicesDetails": [
+                {
+                    "serviceType": "MQTT",
+                    "topic": [
+                        "MySmartThingy/2/proximity"
+                    ]
+                }
+            ],
+            "availableServices": [
+                "MQTT"
+            ]
+        },
+        {
+            "deviceName": "DHT11",
+            "deviceID": 3,
+            "lastUpdate": "2020-03-30",
+            "measureTypes": [
+                "Temperature"
+            ],
+            "servicesDetails": [
+                {
+                    "serviceType": "MQTT",
+                    "topic": [
+                        "MySmartThingy/3/temp",
+                        "MySmartThingy/3/hum"
+                    ]
+                }
+            ],
+            "availableServices": []
+        }
+    ]
+}

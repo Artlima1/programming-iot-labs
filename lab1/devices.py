@@ -73,7 +73,7 @@ class Device:
             "lastUpdate": self.lastUpdate,
             "measureTypes": self.getMeasureTypes(),
             "servicesDetails": [service.to_dict() for service in self.services],
-            "availableServices": self.getAvailableServices()
+            "availableServices": [service.getType() for service in self.getAvailableServices()]
         }
         
 
@@ -138,6 +138,6 @@ class RESTService(Service):
     def to_dict(self):
         return {
             "serviceType": self.sensorType,
-            "topic": self.topicList
+            "serviceIP": self.serviceIP
         }
 
